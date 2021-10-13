@@ -18,6 +18,8 @@ Link: https://archive.ics.uci.edu/ml/datasets/Taiwanese+Bankruptcy+Prediction#
 
 2) The classification algorithms being compared are Logistic Regression, Random Forest, XGBoost and CatBoost Classifications after hyperparameter tuning.
 
+3) Comparison is with respect to a weighted metric: (Sensitivity^2 x Accuracy). Sensitivity is important as we have to minimise false negatives.
+
 
 **WEIGHTED METRICS OUTPUT:**
 1) Without feature selection
